@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RING-0 Hack Shield</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.1/css/bulma.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <main-menu></main-menu>
+    <hero></hero>
+    <cards></cards>
+    <download></download>
+    <footer></footer>
+
+  <!-- All javascript tags   -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/riot/2.6.3/riot+compiler.min.js"></script>
+  <!-- Riotjs Tags mounting -->
+  <script src="main-menu.tag" type="riot/tag"></script>
+  <script src="hero.tag" type="riot/tag"></script>
+  <script src="cards.tag" type="riot/tag"></script>
+  <script src="download.tag" type="riot/tag"></script>
+  <script src="footer.tag" type="riot/tag"></script>
+  <script>riot.mount('*')</script>
+  </body>
+</html>
